@@ -1,0 +1,61 @@
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo{
+    color: rgb(245, 115, 1);
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: white;
+    font-size: 15px;
+    color: rgb(193, 193, 193);
+    margin-left: 100px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.signin{
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 17px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.signin:hover{
+    color: rgb(14, 14, 14);
+    border: 2px solid white;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+}
+.navbar li{
+    cursor: pointer;
+}
+.navbar-search-icon{
+    position: relative;
+}
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top:-8px;
+    right: -8px;
+
+}
