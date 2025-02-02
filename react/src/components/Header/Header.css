@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+.header {
+    height: 34vw;
+    margin: 30px auto;
+    background-image: url('foodback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;  /* Use flexbox to center content */
+    align-items: center; /* Align content vertically */
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Center text inside */
+}
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    width: 90%;  /* Allow content to take more width */
+    max-width: 80%; /* Increase max width for better visibility */
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%); /* Center the content */
+    text-align: center;
+}
+
+.header-contents h1 {
+    font-family: "Lexend Giga", serif;
+    color: white;
+    font-size: 3vw; /* Make text responsive */
+}
+
+.header-contents p {
+    color: aliceblue;
+    font-size: 1.2vw;
+    max-width: 70%; /* Ensure text doesn't stretch too much */
+}
+
+.header-contents button {
+    width: 150px; /* Slightly larger button */
+    height: 45px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 1.2vw;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background: transparent;
+}
+
+.header-contents button:hover {
+    background: white;
+    color: black;
+}
