@@ -20,37 +20,37 @@
     align-items: center; /* Center content */
     width: 90%;  /* Allow content to take more width */
     max-width: 80%; /* Increase max width for better visibility */
-    bottom: 10%;
     left: 50%;
     transform: translateX(-50%); /* Center the content */
     text-align: center;
 }
 
 .header-contents h1 {
+    padding-top: 30px;
     font-family: "Lexend Giga", serif;
     color: white;
     font-size: 3vw; /* Make text responsive */
 }
 
 .header-contents p {
+    padding-top: 10px;
     color: aliceblue;
     font-size: 1.2vw;
     max-width: 70%; /* Ensure text doesn't stretch too much */
 }
 
 .header-contents button {
-    width: 150px; /* Slightly larger button */
-    height: 45px;
-    color: white;
-    border: 2px solid white;
+    width: 100px;
+    height: 40px;
+    align-items: center;
     border-radius: 10px;
-    font-size: 1.2vw;
-    transition-duration: 0.3s;
+    font-size: 17px;
+    transition-duration: 1s;
     cursor: pointer;
-    background: transparent;
+    margin-top: 10px;
 }
 
 .header-contents button:hover {
-    background: white;
-    color: black;
+    background: rgb(239, 91, 0);
+    color: rgb(255, 255, 255);
 }
