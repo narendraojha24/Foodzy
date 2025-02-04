@@ -7,29 +7,30 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    display: flex;  /* Use flexbox to center content */
-    align-items: center; /* Align content vertically */
-    justify-content: center; /* Center content horizontally */
-    text-align: center; /* Center text inside */
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
 }
 
 .header-contents {
     position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content */
-    width: 90%;  /* Allow content to take more width */
-    max-width: 80%; /* Increase max width for better visibility */
+    align-items: center; 
+    width: 90%;  
+    max-width: 80%; 
     left: 50%;
-    transform: translateX(-50%); /* Center the content */
+    transform: translateX(-50%); 
     text-align: center;
+    animation: fadeIn 3s;
 }
 
 .header-contents h1 {
     padding-top: 30px;
     font-family: "Lexend Giga", serif;
     color: white;
-    font-size: 3vw; /* Make text responsive */
+    font-size: 3vw; 
 }
 
 .header-contents p {
@@ -47,7 +48,7 @@
     font-size: 17px;
     transition-duration: 1s;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .header-contents button:hover {
