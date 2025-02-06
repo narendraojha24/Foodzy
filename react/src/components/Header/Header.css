@@ -49,9 +49,13 @@
     transition-duration: 1s;
     cursor: pointer;
     margin-top: 20px;
+    background-color: rgb(228, 92, 7);
+    color: white;
+    border: 1px solid rgb(228, 92, 7);
 }
 
 .header-contents button:hover {
-    background: rgb(239, 91, 0);
-    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
 }
