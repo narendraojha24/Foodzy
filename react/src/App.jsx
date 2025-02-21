@@ -8,6 +8,7 @@ import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 
 function App() {
   return (
+    <>
       <div className='app'>
         <Navbar/>
         <Routes>
@@ -16,6 +17,27 @@ function App() {
           <Route path='/order' element={<PlaceOrder/>} />
         </Routes>
       </div>
+      <div className='footer' id='footer'>
+              <div className='footer-content'>
+                  <div className='footer-content-left'>
+                      <img src="" alt="" />
+                      <p>sbdckjerg jbviheoihv hviorhigu94rg hfibhoriupoegtb</p>
+                      <div className='footer-social-icons'>
+                         <img src="" alt="" />
+                         <img src="" alt="" />
+                         <img src='' alt="" />
+                      </div>
+                  </div>
+                  <div className='footer-content-center'>
+                      
+                  </div>
+                  <div className='footer-content-right'>
+                      
+                  </div>
+              </div>
+            
+          </div>
+    </>
   )
 }
 
