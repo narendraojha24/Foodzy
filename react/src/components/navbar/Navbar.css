@@ -58,3 +58,60 @@
     right: -8px;
 
 }
+
+@media (max-width:1050px) {
+    .navbar .logo{
+        width: 140px;
+    }
+    .navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .navbar-right{
+        gap: 30px;
+    }
+    .navbar-right button{
+        padding: 8px 25px;
+
+    }
+    .box-icon{
+        font-size: 25px;
+         cursor: pointer;
+       }
+    
+}
+
+@media (max-width:900px) {
+    .navbar .logo{
+        width: 100px;
+    }
+    .navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap: 20px;
+    }
+    .navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+
+    }
+    .box-icon{
+        font-size: 20px;
+         cursor: pointer;
+       }
+}
+
+@media (max-width:750px) {
+    .navbar-menu{
+        display: none;
+    }
+    .box-icon{
+        font-size: 20px;
+         cursor: pointer;
+         width: 20px;
+         padding-left: 10px;
+       }
+}
+    

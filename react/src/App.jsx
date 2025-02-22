@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar'
 import Home from './pages/Home/Home'
 import Cart from './pages/Cart/Cart'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
+import { assets } from './assets/assets'
 
 function App() {
   return (
@@ -20,21 +21,35 @@ function App() {
       <div className='footer' id='footer'>
               <div className='footer-content'>
                   <div className='footer-content-left'>
-                      <img src="" alt="" />
+                      <h1>Foodzy</h1>
                       <p>sbdckjerg jbviheoihv hviorhigu94rg hfibhoriupoegtb</p>
                       <div className='footer-social-icons'>
-                         <img src="" alt="" />
-                         <img src="" alt="" />
-                         <img src='' alt="" />
+                         <img src={assets.facebook_icon} alt="" />
+                         <img src={assets.twitter_icon} alt="" />
+                         <img src={assets.linkedin_icon} alt="" />
                       </div>
                   </div>
                   <div className='footer-content-center'>
+                    <h2>COMPANY</h2>
+                    <ul>
+                      <li>Home</li>
+                      <li>About</li>
+                      <li>Delivery</li>
+                      <li>Privacy policy</li>
+                    </ul>
                       
                   </div>
                   <div className='footer-content-right'>
+                    <h2>GET IN TOUCH</h2>
+                    <ul>
+                      <li>+91-7987627973</li>
+                      <li>contact@foodzy.com</li>
+                    </ul>
                       
                   </div>
               </div>
+              <hr />
+              <p className="footer-copyright">Copyright 2025 Foodzy.com - All Right Reserved</p>
             
           </div>
     </>
