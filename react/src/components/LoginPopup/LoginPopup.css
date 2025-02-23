@@ -19,3 +19,52 @@
     font-size: 14px;
     animation: fadeIn 0.5s;
 }
+.login-popup-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.login-popup-title img{
+    width: 16px;
+    cursor: pointer;
+}
+.login-popup-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.login-popup-inputs input{
+    outline: none;
+    border: 1px solid rgb(180, 179, 179);
+    padding: 10px;
+    border-radius: 4px;
+}
+.login-popup-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(240, 110, 17);
+    font-size: 15px;
+    cursor:pointer;
+    transition-duration: 1s;
+}
+.login-popup-container button:hover{
+    background-color: rgb(232, 99, 3); 
+}
+.login-popup-condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+.login-popup-condition input{
+    margin-top: 5px;
+}
+.login-popup span {
+    color: red;
+}
+.login-popup p {
+    color: rgb(115, 115, 115);
+}
