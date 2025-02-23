@@ -3,7 +3,7 @@ import './Navbar.css'
 import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom';
 
-export default function Navbar() {
+export default function Navbar({setShowLogin}) {
   const[menu,setMenu]=useState("home");
   return (
     <div className='navbar'>
@@ -21,7 +21,7 @@ export default function Navbar() {
             <div className="box-icon"><i class='bx bxs-basket' ></i></div>
               <div className="dot"></div>
             </div>
-            <button className='signin'>Sign in</button>
+            <button className='signin' onClick={()=>setShowLogin(true)} >Sign in</button>
           </div> 
       
     </div>
