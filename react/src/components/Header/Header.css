@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
 .header {
-    height: 34vw;
+    height: 40vw;
     margin: 30px auto;
-    background-image: url('foodback.jpg');
+    background-image: url('foodback1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,15 +27,15 @@
 }
 
 .header-contents h1 {
-    padding-top: 30px;
-    font-family: "Lexend Giga", serif;
-    color: white;
-    font-size: 3vw; 
+    padding-bottom: 40px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-size: 3.5vw; 
 }
 
 .header-contents p {
-    padding-top: 10px;
-    color: aliceblue;
+    padding-bottom: 90px;
+    color: rgb(72, 73, 73);
     font-size: 1.2vw;
     max-width: 70%; /* Ensure text doesn't stretch too much */
 }
@@ -49,9 +49,9 @@
     transition-duration: 1s;
     cursor: pointer;
     margin-top: 20px;
-    background-color: rgb(228, 92, 7);
+    background-color: rgb(11, 11, 11);
     color: white;
-    border: 1px solid rgb(228, 92, 7);
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .header-contents button:hover {
@@ -73,10 +73,15 @@
     .header-contents p{
         display: none;
     }
+    .header-contents h1{
+        font-size: 25px;
+
+    }
     .header-contents button{
         font-size: 13px;
         height: 30px;
         width: 80px;
+        margin-bottom: 30px;
     }
     
 }
