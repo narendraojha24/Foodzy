@@ -28,7 +28,7 @@ function App() {
               <div className='footer-content'>
                   <div className='footer-content-left'>
                       <h1>Foodzy</h1>
-                      <p>sbdckjerg jbviheoihv hviorhigu94rg hfibhoriupoegtb</p>
+                      <p> Every dish is made to bring you the perfect balance of taste and quality.</p>
                       <div className='footer-social-icons'>
                          <img src={assets.facebook_icon} alt="" />
                          <img src={assets.twitter_icon} alt="" />
