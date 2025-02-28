@@ -19,10 +19,4 @@ Authentication: JWT & bcrypt
 State Management: Redux (optional)
 Payment Gateway: Razorpay / Stripe (future integration)
 
-## 📌 Daily Development Plan
- Day 1: Project setup, initialize GitHub repo, install dependencies
- Day 2-5: Build authentication (JWT, bcrypt) and user management
- Day 6-10: Implement restaurant and menu features (CRUD)
- Day 11-15: Cart, checkout, and order management
- Day 16-20: UI improvements, order tracking, and payments
- Day 21+: Testing, deployment, and optimizations
+
