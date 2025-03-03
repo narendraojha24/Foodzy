@@ -9,7 +9,7 @@
 .login-popup-container{
     place-self: center;
     width: max(23vw,330px);
-    color: rgb(163, 163, 163);
+    color: rgb(136, 134, 134);
     background-color: white;
     display: flex;
     flex-direction: column;
