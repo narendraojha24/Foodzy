@@ -1,8 +1,8 @@
 # 🍔 Foodzy - MERN Food Delivery App
-🚀 Overview
 ---
+## 🚀 Overview
 Foodzy is a modern food delivery platform built using the MERN stack (MongoDB, Express.js, React, Node.js). This app allows users to browse restaurants, explore menus, place orders, and track deliveries seamlessly.
----
+
 ## 🌟 Features
 ✅ User Authentication – Sign up, login, and manage profiles
 ✅ Browse Restaurants & Menus – View restaurant listings and their menus
