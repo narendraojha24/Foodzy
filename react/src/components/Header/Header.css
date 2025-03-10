@@ -2,7 +2,7 @@
 .header {
     height: 40vw;
     margin: 30px auto;
-    background-image: url('foodback1.png');
+    background-image: url('foodback2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,37 +27,37 @@
 }
 
 .header-contents h1 {
-    padding-bottom: 40px;
     font-weight: 900;
-    color: rgb(0, 0, 0);
+    color: rgb(5, 58, 5);
     font-size: 3.5vw; 
+    margin-top: 30px;
+    width: 700px;
 }
 
 .header-contents p {
-    padding-bottom: 90px;
     color: rgb(72, 73, 73);
+    margin-top: 20px;
     font-size: 1.2vw;
     max-width: 70%; /* Ensure text doesn't stretch too much */
 }
 
 .header-contents button {
-    width: 100px;
+    width: 130px;
     height: 40px;
     align-items: center;
-    border-radius: 10px;
     font-size: 17px;
     transition-duration: 1s;
     cursor: pointer;
-    margin-top: 20px;
-    background-color: rgb(11, 11, 11);
+    margin-top: 50px;
+    background-color: rgb(5, 58, 5);
     color: white;
     border: 1px solid rgb(0, 0, 0);
 }
 
 .header-contents button:hover {
     background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border: 1px solid rgb(255, 255, 255);
+    color: rgb(5, 58, 5);
+    border: 1px solid rgb(5, 58, 5);
 }
 
 @media (max-width:1050px) {
@@ -76,13 +76,14 @@
     .header-contents h1{
         font-size: 25px;
         padding-top: 20px;
+        width: 300px;
 
     }
     .header-contents button{
         font-size: 13px;
         height: 30px;
         width: 80px;
-        margin-bottom: 30px;
+        margin-top: 10px;
     }
     
 }

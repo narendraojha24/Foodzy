@@ -5,6 +5,7 @@
     font-size: max(2vw,24px);
     font-weight: 600;
     margin-top: 40px;
+    color: rgb(5, 58, 5);;
 }
 .food-display-list{
     display: grid;

@@ -17,7 +17,7 @@ export default function Cart() {
             <p>Title</p>
             <p>Price</p>
             <p>Quantity</p>
-            <p>Total Price</p>
+            <p>Total</p>
             <p>Remove</p>
           </div>
           <br />

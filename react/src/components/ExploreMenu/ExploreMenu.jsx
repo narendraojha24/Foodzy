@@ -7,7 +7,7 @@ export default function ExploreMenu({category,setCategory}) {
     <div className='explore-menu' id='explore-menu'>
         <h1>Explore our menu</h1>
         <p className='explore-menu-text'>Satisfy your cravings with our carefully curated menu. Every dish is made to bring you the perfect balance of taste and quality.</p>
-        <div className='box-icon'><i class='bx bxs-right-arrow-circle' ></i></div>
+        <div className='box-icon'><i class='bx bxs-right-arrow-alt bx-fade-left' ></i></div>
       <div className="explore-menu-list">
         {menu_list.map((item,index)=>{
             return(
