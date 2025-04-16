@@ -26,7 +26,8 @@ Payment Gateway: Razorpay / Stripe (future integration)
 # Progress
 ---
 
-![Screenshot 2025-03-03 231554](https://github.com/user-attachments/assets/0f86db3e-5940-44dc-b261-d8996cf45037)
+![Screenshot 2025-04-16 215652](https://github.com/user-attachments/assets/7f138d62-2b2a-4a60-90ee-4889e1c1d90d)
+
 
 ---
 
